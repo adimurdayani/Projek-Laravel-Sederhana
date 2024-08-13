@@ -34,3 +34,11 @@ php artisan migrate
 php artisan make:controller <NamaController>
 ```
 Isi nama controller sesuai kebutuhan dan perhatikan huruf besar kecil di dalam nama controller yang sudah di buat.
+
+## Contoh Blade Template Sederhana
+```
+@section('nama_variabel')
+@endsection()
+
+@yield('nama_variable')
+```
