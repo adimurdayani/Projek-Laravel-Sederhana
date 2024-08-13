@@ -21,4 +21,4 @@ Route::get('/user/tambah', [UserController::class, 'tambah']);
 Route::get('/user/edit/{user}', [UserController::class, 'edit']);
 Route::post('/user/aksiTambah', [UserController::class, 'aksiTambah']);
 Route::put('/user/aksiUpdate/{user}', [UserController::class, 'aksiUpdate']);
-Route::put('/user/hapus/{user}', [UserController::class, 'hapus']);
+Route::delete('/user/hapus/{user}', [UserController::class, 'hapus']);

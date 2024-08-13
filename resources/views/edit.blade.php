@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', $title)
 
-@section('content')
+@section('konten')
     <div class="container mt-4">
         <div class="card">
             <div class="card-body">

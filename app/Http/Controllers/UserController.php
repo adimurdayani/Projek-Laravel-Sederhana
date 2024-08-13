@@ -29,7 +29,7 @@ class UserController extends Controller
         // melakukan validasi data yang diinput oleh pengguna
         $data = $request->validate([
             'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'email', 'max:255', Rule::unique('users', 'email')],
+            'email' => ['required', 'email', 'max:255', 'unique:users,email'],
             'password' => ['required', 'string', 'max:255'],
         ]);
 
