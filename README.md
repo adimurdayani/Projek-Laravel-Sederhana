@@ -15,6 +15,7 @@ Pemahaman awal di dalam pembelajaran laravel, yaitu:
 - Cara penggunaan routes.
 - Cara membuat controller dengan menggunakan terminal laravel.
 - Melakukan migrasi database.
+- link video https://youtu.be/tcE6yqbtmBw.
 
 ## Langkah - Langkah Instalasi Awal Laravel 
 ```
